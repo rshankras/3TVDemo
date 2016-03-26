@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		486DA99B1CA6D34900338D43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486DA99A1CA6D34900338D43 /* AppDelegate.swift */; };
+		486DA9A01CA6D34900338D43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 486DA99E1CA6D34900338D43 /* Main.storyboard */; };
+		486DA9A21CA6D34900338D43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 486DA9A11CA6D34900338D43 /* Assets.xcassets */; };
+		486DA9A51CA6D34900338D43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 486DA9A31CA6D34900338D43 /* LaunchScreen.storyboard */; };
+		486DA9B01CA6D34900338D43 /* _TVDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486DA9AF1CA6D34900338D43 /* _TVDemoTests.swift */; };
+		486DA9C11CA6D43F00338D43 /* FirstTVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486DA9C01CA6D43F00338D43 /* FirstTVController.swift */; };
+		486DA9C31CA6D49900338D43 /* SecondTVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486DA9C21CA6D49900338D43 /* SecondTVController.swift */; };
+		486DA9C51CA6D4AF00338D43 /* ThirdTVController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486DA9C41CA6D4AF00338D43 /* ThirdTVController.swift */; };
+		486DA9C71CA6D4CC00338D43 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486DA9C61CA6D4CC00338D43 /* DetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		486DA9AC1CA6D34900338D43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 486DA98F1CA6D34900338D43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 486DA9961CA6D34900338D43;
+			remoteInfo = 3TVDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		486DA9971CA6D34900338D43 /* 3TVDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3TVDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		486DA99A1CA6D34900338D43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		486DA99F1CA6D34900338D43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		486DA9A11CA6D34900338D43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		486DA9A41CA6D34900338D43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		486DA9A61CA6D34900338D43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		486DA9AB1CA6D34900338D43 /* 3TVDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3TVDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		486DA9AF1CA6D34900338D43 /* _TVDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _TVDemoTests.swift; sourceTree = "<group>"; };
+		486DA9B11CA6D34900338D43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		486DA9C01CA6D43F00338D43 /* FirstTVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstTVController.swift; path = ../FirstTVController.swift; sourceTree = "<group>"; };
+		486DA9C21CA6D49900338D43 /* SecondTVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondTVController.swift; sourceTree = "<group>"; };
+		486DA9C41CA6D4AF00338D43 /* ThirdTVController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdTVController.swift; sourceTree = "<group>"; };
+		486DA9C61CA6D4CC00338D43 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		486DA9941CA6D34900338D43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		486DA9A81CA6D34900338D43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		486DA98E1CA6D34900338D43 = {
+			isa = PBXGroup;
+			children = (
+				486DA9991CA6D34900338D43 /* 3TVDemo */,
+				486DA9AE1CA6D34900338D43 /* 3TVDemoTests */,
+				486DA9981CA6D34900338D43 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		486DA9981CA6D34900338D43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				486DA9971CA6D34900338D43 /* 3TVDemo.app */,
+				486DA9AB1CA6D34900338D43 /* 3TVDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		486DA9991CA6D34900338D43 /* 3TVDemo */ = {
+			isa = PBXGroup;
+			children = (
+				486DA9BA1CA6D35000338D43 /* app */,
+				486DA9BD1CA6D35F00338D43 /* view */,
+				486DA9BB1CA6D35400338D43 /* controller */,
+				486DA9BC1CA6D35900338D43 /* resources */,
+			);
+			path = 3TVDemo;
+			sourceTree = "<group>";
+		};
+		486DA9AE1CA6D34900338D43 /* 3TVDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				486DA9AF1CA6D34900338D43 /* _TVDemoTests.swift */,
+				486DA9B11CA6D34900338D43 /* Info.plist */,
+			);
+			path = 3TVDemoTests;
+			sourceTree = "<group>";
+		};
+		486DA9BA1CA6D35000338D43 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				486DA99A1CA6D34900338D43 /* AppDelegate.swift */,
+			);
+			name = app;
+			sourceTree = "<group>";
+		};
+		486DA9BB1CA6D35400338D43 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				486DA9C01CA6D43F00338D43 /* FirstTVController.swift */,
+				486DA9C21CA6D49900338D43 /* SecondTVController.swift */,
+				486DA9C41CA6D4AF00338D43 /* ThirdTVController.swift */,
+				486DA9C61CA6D4CC00338D43 /* DetailViewController.swift */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		486DA9BC1CA6D35900338D43 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				486DA9A11CA6D34900338D43 /* Assets.xcassets */,
+				486DA9A31CA6D34900338D43 /* LaunchScreen.storyboard */,
+				486DA9A61CA6D34900338D43 /* Info.plist */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+		486DA9BD1CA6D35F00338D43 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				486DA99E1CA6D34900338D43 /* Main.storyboard */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		486DA9961CA6D34900338D43 /* 3TVDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 486DA9B41CA6D34900338D43 /* Build configuration list for PBXNativeTarget "3TVDemo" */;
+			buildPhases = (
+				486DA9931CA6D34900338D43 /* Sources */,
+				486DA9941CA6D34900338D43 /* Frameworks */,
+				486DA9951CA6D34900338D43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 3TVDemo;
+			productName = 3TVDemo;
+			productReference = 486DA9971CA6D34900338D43 /* 3TVDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		486DA9AA1CA6D34900338D43 /* 3TVDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 486DA9B71CA6D34900338D43 /* Build configuration list for PBXNativeTarget "3TVDemoTests" */;
+			buildPhases = (
+				486DA9A71CA6D34900338D43 /* Sources */,
+				486DA9A81CA6D34900338D43 /* Frameworks */,
+				486DA9A91CA6D34900338D43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				486DA9AD1CA6D34900338D43 /* PBXTargetDependency */,
+			);
+			name = 3TVDemoTests;
+			productName = 3TVDemoTests;
+			productReference = 486DA9AB1CA6D34900338D43 /* 3TVDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		486DA98F1CA6D34900338D43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Ravi Shankar";
+				TargetAttributes = {
+					486DA9961CA6D34900338D43 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					486DA9AA1CA6D34900338D43 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 486DA9961CA6D34900338D43;
+					};
+				};
+			};
+			buildConfigurationList = 486DA9921CA6D34900338D43 /* Build configuration list for PBXProject "3TVDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 486DA98E1CA6D34900338D43;
+			productRefGroup = 486DA9981CA6D34900338D43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				486DA9961CA6D34900338D43 /* 3TVDemo */,
+				486DA9AA1CA6D34900338D43 /* 3TVDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		486DA9951CA6D34900338D43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				486DA9A51CA6D34900338D43 /* LaunchScreen.storyboard in Resources */,
+				486DA9A21CA6D34900338D43 /* Assets.xcassets in Resources */,
+				486DA9A01CA6D34900338D43 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		486DA9A91CA6D34900338D43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		486DA9931CA6D34900338D43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				486DA9C11CA6D43F00338D43 /* FirstTVController.swift in Sources */,
+				486DA9C31CA6D49900338D43 /* SecondTVController.swift in Sources */,
+				486DA9C71CA6D4CC00338D43 /* DetailViewController.swift in Sources */,
+				486DA99B1CA6D34900338D43 /* AppDelegate.swift in Sources */,
+				486DA9C51CA6D4AF00338D43 /* ThirdTVController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		486DA9A71CA6D34900338D43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				486DA9B01CA6D34900338D43 /* _TVDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		486DA9AD1CA6D34900338D43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 486DA9961CA6D34900338D43 /* 3TVDemo */;
+			targetProxy = 486DA9AC1CA6D34900338D43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		486DA99E1CA6D34900338D43 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				486DA99F1CA6D34900338D43 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		486DA9A31CA6D34900338D43 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				486DA9A41CA6D34900338D43 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		486DA9B21CA6D34900338D43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		486DA9B31CA6D34900338D43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		486DA9B51CA6D34900338D43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 3TVDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rshankar.com.-TVDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		486DA9B61CA6D34900338D43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = 3TVDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rshankar.com.-TVDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		486DA9B81CA6D34900338D43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = 3TVDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rshankar.com.-TVDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/3TVDemo.app/3TVDemo";
+			};
+			name = Debug;
+		};
+		486DA9B91CA6D34900338D43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = 3TVDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rshankar.com.-TVDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/3TVDemo.app/3TVDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		486DA9921CA6D34900338D43 /* Build configuration list for PBXProject "3TVDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				486DA9B21CA6D34900338D43 /* Debug */,
+				486DA9B31CA6D34900338D43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		486DA9B41CA6D34900338D43 /* Build configuration list for PBXNativeTarget "3TVDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				486DA9B51CA6D34900338D43 /* Debug */,
+				486DA9B61CA6D34900338D43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		486DA9B71CA6D34900338D43 /* Build configuration list for PBXNativeTarget "3TVDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				486DA9B81CA6D34900338D43 /* Debug */,
+				486DA9B91CA6D34900338D43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 486DA98F1CA6D34900338D43 /* Project object */;
+}
